@@ -1,0 +1,58 @@
+
+#banner-part row {
+    margin: 0;
+}
+
+#banner-part .slider-for .slide-bg {
+    height: 550px;
+    padding: 130px 0 50px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#banner-part .slider-for .slide-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(20, 20, 20, 1) 35%, rgba(83, 100, 141, 0) 100%);
+    width: 100%;
+    z-index: -1;
+}
+
+#banner-part .slider-for .first-slider {
+    background-image: url(../images/favorite/f1.jpg);
+}
+
+#banner-part .slider-for .second-slider {
+    background-image: url(../images/favorite/f2.jpg);
+}
+
+#banner-part .slider-for .third-slider {
+    background-image: url(../images/favorite/f3.jpg);
+}
+
+#banner-part .slider-for .fourth-slider {
+    background-image: url(../images/favorite/f4.jpg);
+}
+
+#banner-part .slider-for .fifth-slider {
+    background-image: url(../images/favorite/f5.jpg);
+}
+
+.slider-nav img {
+    width: 100%;
+}
+
+#banner-part .slider-for .slide-bg {
+    color: #fff;
+}
+/* 
+#banner-part .slider-nav {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+} */
